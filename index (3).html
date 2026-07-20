@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Grade Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>🎓 Student Grade Calculator</h1>
+
+    <input type="text" id="name" placeholder="Student Name">
+    <input type="text" id="studentid" placeholder="Student ID">
+
+    <div class="subjects">
+        <input type="text" id="sub1" placeholder="Subject 1">
+        <input type="number" id="grade1" placeholder="Grade">
+
+        <input type="text" id="sub2" placeholder="Subject 2">
+        <input type="number" id="grade2" placeholder="Grade">
+
+        <input type="text" id="sub3" placeholder="Subject 3">
+        <input type="number" id="grade3" placeholder="Grade">
+
+        <input type="text" id="sub4" placeholder="Subject 4">
+        <input type="number" id="grade4" placeholder="Grade">
+
+        <input type="text" id="sub5" placeholder="Subject 5">
+        <input type="number" id="grade5" placeholder="Grade">
+
+        <input type="text" id="sub6" placeholder="Subject 6">
+        <input type="number" id="grade6" placeholder="Grade">
+
+        <input type="text" id="sub7" placeholder="Subject 7">
+        <input type="number" id="grade7" placeholder="Grade">
+
+        <input type="text" id="sub8" placeholder="Subject 8">
+        <input type="number" id="grade8" placeholder="Grade">
+
+        <input type="text" id="sub9" placeholder="Subject 9">
+        <input type="number" id="grade9" placeholder="Grade">
+    </div>
+
+    <button onclick="calculate()">Calculate Grades</button>
+    <button onclick="resetForm()">Reset</button>
+
+    <div class="result">
+        <h3 id="average"></h3>
+        <h3 id="status"></h3>
+        <p id="message"></p>
+    </div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
